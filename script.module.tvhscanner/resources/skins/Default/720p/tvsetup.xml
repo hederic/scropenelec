@@ -1,0 +1,230 @@
+<window id="6501">
+	<defaultcontrol>90060</defaultcontrol>
+	<controls>	
+		<control type="group">
+				<control type="image">
+					<posx>0</posx>
+					<posy>225</posy>
+					<width>179</width>
+					<height>274</height>
+					<texture>menu_param_tv_0.png</texture>
+					<animation effect="slide" start="0,-120" end="0,0" delay="100" time="300" tween="quadratic" easing="out">WindowOpen</animation>
+				</control>	
+				<control type="label">
+					<posx>5</posx>
+					<posy>385</posy>
+					<width>168</width>
+					<label>666002</label>
+                                        <height>25</height>
+                                        <align>center</align>
+                                        <aligny>center</aligny>
+                                        <font>century18</font>
+                                        <textcolor>FFb4b4b4</textcolor>				
+				</control>
+		</control>
+		
+		<control type="group" id="90059">
+                    
+			<onright>90061</onright>		
+			<animation effect="slide" start="0,120" end="0,0" delay="300" time="300" tween="quadratic" easing="out">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="0,-120" delay="200" time="300" tween="quadratic" easing="out">Hidden</animation>
+			<animation effect="slide" start="0,120" end="0,0" delay="200" time="300" tween="quadratic" easing="out">Visible</animation>							
+
+			<visible>!StringCompare(Skin.String(AnimationToggle),1)</visible>		
+			
+                        <control type="image">
+					<posx>179</posx>
+					<posy>225</posy>
+					<width>367</width>
+					<height>274</height>
+					<texture>menu_param.png</texture>									
+			</control>	
+
+                        
+			<control type="list" id="90060">
+                                <onright>90061</onright>
+                                <posx>190</posx>
+                                <posy>245</posy>
+                                <width>345</width>
+                                <height>245</height>
+                                <align>left</align>	
+                                <aligny>center</aligny>			
+                                <orientation>Vertical</orientation>	
+				<itemlayout height="25" width="345">
+					<control type="label">
+						<posx>0</posx>
+						<posy>10</posy>
+						<height>25</height>
+						<width>345</width>
+						<align>left</align>
+						<aligny>center</aligny>
+						<font>century18</font>
+						<textcolor>FFb4b4b4</textcolor>
+						<info>ListItem.Label</info>
+					</control>	
+				</itemlayout>
+				<focusedlayout height="25" width="345">
+					<control type="label">
+						<posx>0</posx>
+						<posy>10</posy>
+						<height>25</height>
+						<width>345</width>
+						<align>left</align>
+						<aligny>center</aligny>
+						<font>century18</font>
+						<textcolor>FF0084ff</textcolor>
+			
+						<info>ListItem.Label</info>
+					</control>                                       
+				</focusedlayout>
+			</control>
+                        <control type="image">
+                            <posx>349</posx>
+                            <posy>225</posy>
+                            <width>23</width>
+                            <height>21</height>
+                            <texture>ArrowDown.png</texture>
+                            <visible>Control.HasFocus(90060)</visible>
+                        </control>     
+		</control>
+
+		<control type="group" id="90058">
+			<animation effect="slide" start="0,120" end="0,0" delay="700" time="300" tween="quadratic" easing="out">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="0,-120" delay="200" time="300" tween="quadratic" easing="out">Hidden</animation>
+			<animation effect="slide" start="0,120" end="0,0" delay="200" time="300" tween="quadratic" easing="out">Visible</animation>							
+                    
+                        <visible>!StringCompare(Skin.String(AnimationToggle),1)</visible>		
+
+                        <control type="image">
+					<posx>915</posx>
+					<posy>225</posy>
+					<width>365</width>
+					<height>274</height>
+					<texture>menu_param.png</texture>									
+                        </control>	
+			<control type="label" id="90062">
+                            <posx>920</posx>
+                            <posy>245</posy>
+                            <width>345</width>
+                            <height>245</height>
+                            <align>left</align>
+                            <textcolor>FF0084ff</textcolor>
+                            <font>font12</font>	
+                            <wrapmultiline>true</wrapmultiline>
+			    <label>666009</label>
+			</control>
+		</control>	
+		
+
+		
+		<control type="group" id="90057">
+			<animation effect="slide" start="0,-120" end="0,0" delay="500" time="300" tween="quadratic" easing="out">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="0,120" delay="200" time="300" tween="quadratic" easing="out">Hidden</animation>
+			<animation effect="slide" start="0,-120" end="0,0" delay="200" time="300" tween="quadratic" easing="out">Visible</animation>				
+			<visible>!StringCompare(Skin.String(AnimationToggle),1)</visible>                    
+			<onleft>90060</onleft>
+                        
+			<control type="image">
+					<posx>547</posx>
+					<posy>225</posy>
+					<width>367</width>
+					<height>274</height>
+					<texture>menu_param.png</texture>						
+			</control>	
+
+			<control type="list" id="90061">
+                                <onleft>90060</onleft>		
+                                <posx>556</posx>
+                                <posy>245</posy>
+                                <width>345</width>
+                                <height>245</height>
+                                <align>left</align>	
+                                <aligny>center</aligny>			
+                                <orientation>Vertical</orientation>	
+				<itemlayout height="25" width="345">
+					<control type="label">
+						<posx>0</posx>
+						<posy>10</posy>
+						<height>25</height>
+						<width>345</width>
+						<align>left</align>
+						<aligny>center</aligny>
+						<font>century18</font>
+						<textcolor>FFb4b4b4</textcolor>
+						<info>ListItem.Label</info>
+					</control>	
+				</itemlayout>
+				<focusedlayout height="25" width="345">
+					<control type="label">
+						<posx>0</posx>
+						<posy>10</posy>
+						<height>25</height>
+						<width>345</width>
+						<align>left</align>
+						<aligny>center</aligny>
+						<font>century18</font>
+						<textcolor>FF0084ff</textcolor>
+					
+						<info>ListItem.Label</info>
+					</control>                                      
+				</focusedlayout>
+			</control>
+			<control type="grouplist" id="90063">
+                                <onleft>90060</onleft>		
+                                <posx>556</posx>
+                                <posy>245</posy>
+                                <width>345</width>
+                                <height>245</height>
+                                <align>left</align>	
+                                <aligny>center</aligny>			
+                                <visible>false</visible>                                
+                        </control>
+                        <control type="image">
+                            <posx>715</posx>
+                            <posy>225</posy>
+                            <width>23</width>
+                            <height>21</height>
+                            <texture>ArrowDown.png</texture>
+                            <visible>Control.HasFocus(90061)</visible>                            
+                        </control>                         
+		</control>    
+                
+		<control type="group" id="90063">                    
+                        <visible>StringCompare(Skin.String(Recherche),1)</visible>		
+
+			<control type="label" id="90065">
+                            <posx>920</posx>
+                            <posy>245</posy>
+                            <width>345</width>
+                            <height>145</height>
+                            <align>center</align>
+                            <textcolor>FF0084ff</textcolor>
+                            <font>font12</font>	
+                            <wrapmultiline>true</wrapmultiline>
+			</control>                        
+			<control type="label" id="90064">
+                            <posx>920</posx>
+                            <posy>390</posy>
+                            <width>345</width>
+                            <height>45</height>
+                            <align>center</align>
+                            <textcolor>FF0084ff</textcolor>
+                            <font>century24b</font>	
+                            <wrapmultiline>true</wrapmultiline>
+			</control>
+                        <control type="progress" id="90066">
+                            <posx>940</posx>
+                            <posy>435</posy>
+                            <width>305</width>
+                            <height>19</height>
+                            <visible>true</visible>
+                            <reveal>false</reveal>
+                            <texturebg>progress_bg.png</texturebg>
+                            <lefttexture>progress.png</lefttexture>
+                            <midtexture>progress.png</midtexture>
+                            <righttexture>progress.png</righttexture>
+                        </control>                        
+		</control>                
+		           
+	</controls>
+</window>

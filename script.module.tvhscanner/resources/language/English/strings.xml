@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <!-- Plugin settings strings -->
+<string id="666000">Feature to come.</string> 
+<string id="666001">TVHeadend PVR client is not enabled.</string> 
+  <string id="666002">Feature to come.</string>    
+  <string id="666003">SATELLITE SETUP</string>  
+  <string id="666004">Feature to come.</string> 
+  <string id="666005">Feature to come.</string>    
+  <string id="666006">Feature to come.</string>      
+  <string id="666009">Select the action</string>
+    <string id="666010">Select the tuner. [DVB S]=Satellite, [DVB T]=TNT</string> 
+    <string id="666011">Select your satellite head</string>
+    <string id="666012">HEAD TYPE</string>	 
+    <string id="666013">UNIVERSAL</string>
+    
+    <string id="666014">SATELLITE CHOICE</string>    
+    <string id="666015">Select your satellite from the list</string> 
+    <string id="666016">DISEQC VERSION</string>  
+    <string id="666017">Select your Diseqc version</string>  
+    <string id="666018">SCAN FOR CHANNELS</string>  
+    <string id="666019">SCANNING...</string>   
+    <string id="666020">START SCANNING</string>  
+    <string id="666021">If you start a scan with the same settings only new channels will be updated.</string>       
+    <string id="666022">No new channels detected</string>      
+    <string id="666023">SUBSCRIBING CHANNELS:</string>      
+    
+</strings>

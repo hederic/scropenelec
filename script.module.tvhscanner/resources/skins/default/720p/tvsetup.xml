@@ -1,0 +1,99 @@
+<window id="6502" type="buttonmenu">
+	<coordinates>
+		<system>1</system>
+		<posx>280</posx>
+		<posy>90</posy>
+	</coordinates>
+        <zorder>2</zorder>
+        <controls>
+		<control type="image">
+			<description>background image</description>
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>300</width>
+			<height>320</height>
+			<texture border="40">DialogBack.png</texture>
+		</control>            
+                                <control type="list" id="666004">
+                                                    <description>Type de tete</description>
+                                                    <posx>20</posx>
+                                                    <posy>5</posy>
+                                                    <width>400</width>
+                                                    <height>300</height>
+                                                    <visible>true</visible>                                                                          
+                                                    <label>666004</label>
+                                                    <textcolor>white</textcolor>
+                                                    <shadowcolor>black</shadowcolor>
+                                                    <align>center</align>
+                                                    <aligny>center</aligny>
+                                                    <viewtype label="3D list">list</viewtype>
+                                                    <orientation>vertical</orientation>                                                    
+                                        <itemlayout height="40" width="260">
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>260</width>
+						<height>41</height>
+						<texture border="5">MenuItemNF.png</texture>
+					</control>
+					<control type="label">
+						<posx>0</posx>
+						<posy>5</posy>
+						<width>260</width>
+						<height>35</height>
+						<textcolor>white</textcolor>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+                                        </itemlayout>
+                                        <focusedlayout height="40" width="260">
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>260</width>
+						<height>41</height>
+						<texture border="5">MenuItemFO.png</texture>
+						<animation effect="fade" start="100" end="30" time="100" condition="!Control.HasFocus(9000)">Conditional</animation>
+					</control>
+					<control type="label">
+						<posx>0</posx>
+						<posy>5</posy>
+						<width>260</width>
+						<height>35</height>						
+						<textcolor>white</textcolor>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+				</focusedlayout>
+				<content>
+					<item id="1">
+						<label>Universal</label>
+                                                <onclick>Skin.SetString(typetete,Universal)</onclick>
+					</item>
+					<item id="2">
+						<label>DBS</label>
+                                                <onclick>Skin.SetString(typetete,DBS)</onclick>                                                
+					</item>
+					<item id="3">
+						<label>Standard</label>
+                                                <onclick>Skin.SetString(typetete,Standard)</onclick>                                                
+					</item>
+					<item id="4">
+						<label>Enhanced</label>
+                                                <onclick>Skin.SetString(typetete,Enhanced)</onclick>                                                
+					</item>
+					<item id="5">
+						<label>C-band</label>
+                                                <onclick>Skin.SetString(typetete,C-band)</onclick>                                                
+					</item>
+					<item id="6">
+						<label>C-multi</label>
+                                                <onclick>Skin.SetString(typetete,C-multi)</onclick>                                                
+					</item>
+					<item id="7">
+						<label>Circular 10750</label>
+                                                <onclick>Skin.SetString(typetete,Circular 10750)</onclick>                                                
+					</item>                                         
+                                </content>
+                                </control>  
+        </controls>                                
+    
+</window>

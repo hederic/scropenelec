@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <!-- Plugin settings strings -->
+<string id="666000">Fonctionnalité à venir.</string>    
+<string id="666001">TVHeadend PVR client n'est pas installé.</string>  
+  <string id="666002">Fonctionnalité à venir.</string>    
+  <string id="666003">INSTALLATION SATELLITE</string>  
+  <string id="666004">Fonctionnalité à venir.</string> 
+  <string id="666005">Fonctionnalité à venir.</string>    
+  <string id="666006">Fonctionnalité à venir.</string>      
+  <string id="666009">Sélectionnez l'action qui vous intéresse</string>
+    <string id="666010">Sélectionnez le tuner à paramétrer. [DVB S]=Satellite, [DVB T]=TNT</string> 
+    <string id="666011">Sélectionnez le type de tête de votre parabole</string>
+    <string id="666012">TYPE DE TETE</string>	 
+    <string id="666013">UNIVERSEL</string>
+    
+    <string id="666014">CHOIX SATELLITE</string>    
+    <string id="666015">Sélectionnez votre satellite dans la liste</string> 
+    <string id="666016">VERSION DISEQC</string>  
+    <string id="666017">Sélectionnez votre version de Diseqc</string>  
+    <string id="666018">RECHERCHE DE CHAINES</string>  
+    <string id="666019">RECHERCHE EN COURS...</string>   
+    <string id="666020">LANCER LA RECHERCHE</string>  
+    <string id="666021">Si vous lancez la recherche avec les mêmes paramètres que précédemment, seules les nouvelles chaines seront ajoutées.</string>       
+    <string id="666022">La recherche utilise les paramètres actuels et n'a fait apparaitre aucune nouvelle chaîne</string>      
+    <string id="666023">CHAINES EN SOUSCRIPTION:</string>      
+    
+</strings>

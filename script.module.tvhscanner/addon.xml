@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<addon id='script.module.tvhscanner' version='0.3' name='TVH Service Scanner' provider-name='Julien Conan'>
+  <requires>
+    <import addon='xbmc.python' version='2.0'/>  
+  </requires>
+  <extension point='xbmc.python.script' library="default.py" />
+  <extension point='xbmc.addon.metadata'>
+    <platform>all</platform>
+    <summary lang='en'>Interface to scan TVHeadend services</summary>
+    <summary lang='fr'>Interface pour scanner les chaines dans TVheadend</summary>    
+  </extension>  
+</addon>
